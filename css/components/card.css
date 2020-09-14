@@ -1,0 +1,32 @@
+.card {
+  width: 1000px;
+  border-radius: 3px;
+  padding: 15px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.card img {
+  height: 100px;
+  border-radius: 3px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+.card p {
+  opacity: .5;
+  text-align: justify;
+}
+
+
+.card h3{
+	text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  align-content: center;
+  
+}
